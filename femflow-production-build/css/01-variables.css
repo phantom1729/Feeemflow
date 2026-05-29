@@ -1,0 +1,14 @@
+:root {
+    --bg-cream: #FAF6F0;
+    --primary-pink: #E04A6B;
+    --secondary-pink: #c23b58;
+    --text-dark: #333333;
+    --text-muted: #666666;
+    --card-border: #EEEEEE;
+    --card-shadow: rgba(0,0,0,0.05);
+    
+    --font-head: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
+    
+    --transition-speed: 0.3s;
+}

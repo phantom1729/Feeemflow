@@ -1,0 +1,39 @@
+.btn-pink { 
+    background: var(--primary-pink); 
+    color: white; 
+    padding: 14px 28px; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    display: inline-block; 
+    border: 1px solid var(--primary-pink); 
+    cursor: pointer;
+    transition: background var(--transition-speed) ease;
+}
+
+.btn-pink:hover, .btn-pink:focus {
+    background: var(--secondary-pink);
+    border-color: var(--secondary-pink);
+}
+
+.btn-outline { 
+    background: transparent; 
+    color: var(--primary-pink); 
+    padding: 14px 28px; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    display: inline-block; 
+    border: 1px solid var(--primary-pink); 
+    margin-left: 10px;
+    transition: all var(--transition-speed) ease;
+}
+
+.btn-outline:hover {
+    background: var(--primary-pink);
+    color: white;
+}
