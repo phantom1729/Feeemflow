@@ -1,0 +1,55 @@
+/* Hero Section */
+.hero { display: flex; align-items: center; padding: 50px 0; gap: 40px; }
+.hero-left { flex: 1; }
+.hero-title { font-family: var(--font-head); font-size: 65px; line-height: 1.1; color: var(--primary-pink); font-style: italic; margin-bottom: 20px; }
+.hero-title span { color: #3A3330; font-style: normal; }
+.hero-desc { font-size: 16px; color: var(--text-muted); margin-bottom: 30px; max-width: 450px; }
+.hero-features { display: flex; gap: 30px; margin-top: 40px; }
+.feat-box { text-align: center; font-size: 11px; color: var(--text-muted); font-weight: 500; }
+.hero-right img { width: 100%; max-width: 600px; border-radius: 12px; }
+
+/* Flow Cards Section */
+.flow-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+.flow-card-container { position: relative; border-radius: 12px; overflow: hidden; height: 260px; box-shadow: 0 4px 15px var(--card-shadow); }
+.flow-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.flow-card-container:hover .flow-card-img { transform: scale(1.05); }
+.flow-btn-overlay { position: absolute; bottom: 25px; left: 25px; color: white; padding: 8px 20px; border-radius: 4px; text-decoration: none; font-size: 12px; font-weight: 600; text-transform: uppercase; z-index: 2; transition: opacity 0.3s; }
+.btn-light { background: #52A388; }
+.btn-medium { background: #D65A75; }
+.btn-heavy { background: #8E5DA8; }
+
+/* Education Blogs */
+.edu-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px; margin-bottom: 60px; }
+.edu-card { background: white; border-radius: 8px; overflow: hidden; border: 1px solid var(--card-border); display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.edu-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px var(--card-shadow); }
+.edu-card img { width: 100%; height: 140px; object-fit: cover; }
+.edu-content { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+.edu-tag { color: var(--primary-pink); font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 5px; }
+.edu-text { font-size: 13px; font-weight: 500; line-height: 1.3; margin-bottom: 15px; }
+.read-more-link { color: var(--primary-pink); font-size: 11px; font-weight: 700; text-decoration: none; }
+.edu-card.quiz { background: #FFF3F5; border: 1px solid #FFCCD5; text-align: center; align-items: center; justify-content: center; padding: 20px; }
+.quiz-title { color: var(--primary-pink); margin-bottom: 10px; }
+.quiz-desc { font-size: 12px; margin-bottom: 15px; }
+.quiz-btn { padding: 10px 15px; font-size: 11px; }
+
+/* Pain Relief */
+.pain-relief-sec { display: flex; justify-content: space-between; align-items: center; margin-bottom: 80px; gap: 20px; }
+.relief-item { text-align: center; flex: 1; }
+.relief-circle { width: 110px; height: 110px; border-radius: 50%; overflow: hidden; margin: 0 auto 15px; border: 3px solid white; box-shadow: 0 4px 10px var(--card-shadow); }
+.relief-circle img { width: 100%; height: 100%; object-fit: cover; }
+.relief-item h5 { font-size: 12px; text-transform: uppercase; margin-bottom: 5px; }
+.relief-item p { font-size: 11px; color: var(--text-muted); }
+.side-banner { width: 250px; background: #F8D7E0; border-radius: 12px; padding: 30px 20px; text-align: center; }
+.side-banner h4 { font-family: var(--font-head); font-style: italic; color: #555; margin-bottom: 15px; }
+.side-banner img { width: 100%; border-radius: 8px; }
+
+/* Inside Box Section */
+.inside-box-sec { background: white; border-radius: 15px; padding: 40px; display: flex; align-items: center; gap: 50px; margin-bottom: 80px; border: 1px solid #F0EAE1; }
+.inside-box-img { width: 40%; border-radius: 10px; object-fit: cover; }
+.inside-content { flex: 1; }
+.inside-logo { height: 40px; margin-bottom: 15px; }
+.inside-content h3 { font-family: var(--font-head); font-size: 24px; text-transform: uppercase; margin-bottom: 20px; }
+.inside-list { list-style: none; }
+.inside-list li { margin-bottom: 12px; font-size: 14px; color: var(--text-muted); display: flex; align-items: center; gap: 10px; }
+.inside-list li::before { content: '✓'; color: var(--primary-pink); font-weight: bold; }
+.shop-box-btn { margin-top: 20px; }
